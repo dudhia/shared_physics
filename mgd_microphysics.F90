@@ -44,7 +44,7 @@ contains
        real, intent(inout) :: p     ! Pressure (Pa)
        real, intent(inout) :: qv    ! Water vapor mixing ratio (kg/kg)
 
-       write(0,*) 'Running the MGD microphysics version '//trim(mgd_mp_version)
+       write(0,*) 'Running the MGD microphysics version from dudhia'//trim(mgd_mp_version)
        write(0,*) 'Atmospheric state: '
        write(0,*) ' T = ', t
        write(0,*) ' P = ', p
